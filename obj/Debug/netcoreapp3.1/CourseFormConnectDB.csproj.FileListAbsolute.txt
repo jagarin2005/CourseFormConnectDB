@@ -1,0 +1,15 @@
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\bin\Debug\netcoreapp3.1\CourseFormConnectDB.exe
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\bin\Debug\netcoreapp3.1\CourseFormConnectDB.deps.json
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\bin\Debug\netcoreapp3.1\CourseFormConnectDB.runtimeconfig.json
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\bin\Debug\netcoreapp3.1\CourseFormConnectDB.runtimeconfig.dev.json
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\bin\Debug\netcoreapp3.1\CourseFormConnectDB.dll
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\bin\Debug\netcoreapp3.1\CourseFormConnectDB.pdb
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\netcoreapp3.1\CourseFormConnectDB.csprojAssemblyReference.cache
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\netcoreapp3.1\CourseFormConnectDB.Main.resources
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\netcoreapp3.1\CourseFormConnectDB.csproj.GenerateResource.cache
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\netcoreapp3.1\CourseFormConnectDB.AssemblyInfoInputs.cache
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\netcoreapp3.1\CourseFormConnectDB.AssemblyInfo.cs
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\netcoreapp3.1\CourseFormConnectDB.csproj.CoreCompileInputs.cache
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\netcoreapp3.1\CourseFormConnectDB.dll
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\netcoreapp3.1\CourseFormConnectDB.pdb
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\netcoreapp3.1\CourseFormConnectDB.genruntimeconfig.cache
