@@ -22,5 +22,11 @@ namespace CourseFormConnectDB
             var form5 = new Form5();
             form5.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var from3 = new From3();
+            from3.Show();
+        }
     }
 }
