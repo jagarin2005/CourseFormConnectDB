@@ -52,6 +52,11 @@ namespace CourseFormConnectDB
 
             // if you want to hide Identity column
             dataGridView1.Columns[0].Visible = false;
+
+            dataGridView1.Columns[0].HeaderText = "ID";
+            dataGridView1.Columns[1].HeaderText = "ค่าข้อมูล";
+            dataGridView1.Columns[2].HeaderText = "รายละเอียด";
+            dataGridView1.Columns[3].HeaderText = "สถานะ";
         }
 
         private void button1_Click(object sender, EventArgs e)
