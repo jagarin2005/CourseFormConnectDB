@@ -10,7 +10,11 @@
     <Compile Update="Main.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="toon.cs">
+=======
+    <Compile Update="yo.cs">
+>>>>>>> c2facbdf5491d18b17978d7f861f833dda88208f
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

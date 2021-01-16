@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace CourseFormConnectDB
 {
-    public partial class Form5 : Form
+    public partial class Form1 : Form
     {
         private MySqlConnection conn;
         private MySqlDataAdapter adpt;
@@ -20,7 +20,7 @@ namespace CourseFormConnectDB
         private BindingSource bds;
         private string strQuery;
 
-        public Form5()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -29,7 +29,7 @@ namespace CourseFormConnectDB
         {
             var connectionString = "Server=localhost;Database=formdb;Uid=root;Pwd=;";
             conn = new MySqlConnection(connectionString);
-            strQuery = "SELECT * FROM form5";
+            strQuery = "SELECT * FROM form1";
 
             conn.Open();
 
@@ -46,18 +46,6 @@ namespace CourseFormConnectDB
             conn.Close();
         }
 
-        private void Form5_Load(object sender, EventArgs e)
-        {
-            LoadData();
-
-            // if you want to hide Identity column
-            dataGridView1.Columns[0].Visible = false;
-
-            dataGridView1.Columns[0].HeaderText = "ID";
-            dataGridView1.Columns[1].HeaderText = "ค่าข้อมูล";
-            dataGridView1.Columns[2].HeaderText = "รายละเอียด";
-            dataGridView1.Columns[3].HeaderText = "สถานะ";
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -76,6 +64,28 @@ namespace CourseFormConnectDB
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            LoadData();
+
+            // if you want to hide Identity column
+            dataGridView1.Columns[0].Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                adpt.Update(dt);
+                LoadData();
+                MessageBox.Show("บันทึกข้อมูลสำเร็จ", "บันทึกข้อมูลสำเร็จแล้ว", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
         }
     }
 }
