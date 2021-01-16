@@ -16,3 +16,4 @@ C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\net5.0-windows\Cou
 C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\net5.0-windows\ref\CourseFormConnectDB.dll
 C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\net5.0-windows\CourseFormConnectDB.pdb
 C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\net5.0-windows\CourseFormConnectDB.genruntimeconfig.cache
+C:\Users\jakarin_a\source\repos\CourseFormConnectDB\obj\Debug\net5.0-windows\CourseFormConnectDB.Form5.resources

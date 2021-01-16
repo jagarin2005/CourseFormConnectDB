@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace CourseFormConnectDB
 {
-    public partial class Main : Form
+    public partial class Form5 : Form
     {
-        public Main()
+        public Form5()
         {
             InitializeComponent();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            var form5 = new Form5();
-            form5.Show();
         }
     }
 }
