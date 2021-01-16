@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace CourseFormConnectDB
 {
-    public partial class Form5 : Form
+    public partial class toon : Form
     {
         private MySqlConnection conn;
         private MySqlDataAdapter adpt;
@@ -19,17 +19,15 @@ namespace CourseFormConnectDB
         private DataTable dt;
         private BindingSource bds;
         private string strQuery;
-
-        public Form5()
+        public toon()
         {
             InitializeComponent();
         }
-
         private void LoadData()
         {
             var connectionString = "Server=localhost;Database=formdb;Uid=root;Pwd=;";
             conn = new MySqlConnection(connectionString);
-            strQuery = "SELECT * FROM form5";
+            strQuery = "SELECT * FROM toon";
 
             conn.Open();
 
@@ -46,20 +44,12 @@ namespace CourseFormConnectDB
             conn.Close();
         }
 
-        private void Form5_Load(object sender, EventArgs e)
+        private void toon_Load(object sender, EventArgs e)
         {
             LoadData();
-
-            // if you want to hide Identity column
-            dataGridView1.Columns[0].Visible = false;
-
-            dataGridView1.Columns[0].HeaderText = "ID";
-            dataGridView1.Columns[1].HeaderText = "ค่าข้อมูล";
-            dataGridView1.Columns[2].HeaderText = "รายละเอียด";
-            dataGridView1.Columns[3].HeaderText = "สถานะ";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void save_Click(object sender, EventArgs e)
         {
             try
             {
@@ -71,11 +61,6 @@ namespace CourseFormConnectDB
             {
                 MessageBox.Show(ex.Message.ToString());
             }
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }
